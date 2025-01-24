@@ -1,8 +1,10 @@
-#include <iostream>
+#include <bits/stdc++.h>
 using namespace std;
 
 int main()
 {
-  cout << "Hello, World!" << endl;
+  string str;
+  getline(cin,str);
+  cout << str;
   return 0;
 }
