@@ -1,0 +1,13 @@
+Time Complexity 
+
+Defination : The Rate at which the time taken increases with the request to the input size.
+
+* TC should be always given for Wosrt case scenario 
+*Avoid constansts 
+*Avoid lower values
+
+
+
+Big -oh (O)          Theta            Omega
+Worst case         
+upper-bond      Avager Complexity   lower bound
