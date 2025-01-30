@@ -1,0 +1,7 @@
+Space Complexity
+
+
+Def : Memory space 
+     Axuilary space (space taken to solve the problem)
+          +
+    input space(space taken to store the problem)

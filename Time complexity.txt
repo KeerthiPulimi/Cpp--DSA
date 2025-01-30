@@ -11,3 +11,21 @@ Defination : The Rate at which the time taken increases with the request to the 
 Big -oh (O)          Theta            Omega
 Worst case         
 upper-bond      Avager Complexity   lower bound
+ 
+ 
+some examples :
+    
+    1.for(int i =0;i< N;i++){
+        for(int j=0;j<N;j++){
+          //Block of code constant time
+      }
+    } - TC: O(N^2)
+
+    2.for(int i =0;i< N;i++){
+        for(int j=0;j<=i;j++){
+          //Block of code constant time
+      }
+    } TC:   1+2+3+...+N = Nx(N+1)/2
+           =N^2/2 +N/2
+           =O(N^2/2)
+           =O(N^2) 
