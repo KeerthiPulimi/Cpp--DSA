@@ -1,11 +1,11 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-void print1(int n)
+void print2(int n)
 {
   for (int i = 0; i < n; i++)
   {
-    for (int j = 0; j < n; j++)
+    for (int j = 0; j <= i; j++)
     {
       cout << "*";
     }
@@ -20,12 +20,12 @@ int main()
   {
     int n;
     cin >> n;
-    print1(n);
+    print2(n);
   }
 }
 
-/* xxxxx
-   xxxxx
-   xxxxx
-   xxxxx
+/* x
+   xx
+   xxx
+   xxxx
    xxxxx*/
