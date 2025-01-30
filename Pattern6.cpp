@@ -5,9 +5,9 @@ void print5(int n)
 {
   for (int i = 1; i <= n; i++)
   {
-    for (int j = 0; j < n - i + 1; j++)
+    for (int j = 1; j <=  n - i + 1; j++)
     {
-      cout << "* ";
+      cout << j << " ";
     }
     cout << endl;
   }
@@ -24,9 +24,9 @@ int main()
   }
 }
 
-/* *****
- ****
- ***
- **
- *
+/* 12345
+   1234
+   123
+   12
+   1
  */
