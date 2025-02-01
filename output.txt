@@ -1,10 +1,10 @@
-A B C D E 
-A B C D 
-A B C 
-A B 
 A 
-
-A B C 
-A B 
+B B 
+C C C 
+D D D D 
+E E E E E 
+F F F F F F 
 A 
-
+B B 
+C C C 
+D D D D 
