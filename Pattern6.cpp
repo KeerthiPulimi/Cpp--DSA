@@ -1,7 +1,7 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-void print5(int n)
+void print6(int n)
 {
   for (int i = 1; i <= n; i++)
   {
@@ -20,7 +20,7 @@ int main()
   {
     int n;
     cin >> n;
-    print5(n);
+    print6(n);
   }
 }
 
